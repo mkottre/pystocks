@@ -14,4 +14,10 @@ Pystocks requires Python 3 and ystockquote >= 0.2.5 which is currently not avail
 
 After ystockquote is installed, pystocks should be able to run with the command:
 
-	python pystocks.py
+	python pystocks.py <TICKER>
+
+Depending on your platform and Python installation, you may need to run python3 inplace of python.
+
+Example Usage:
+
+	python pystocks.py AAPL AMZN KRFT YHOO
